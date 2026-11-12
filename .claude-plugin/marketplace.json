@@ -1,0 +1,34 @@
+{
+  "name": "viewlify",
+  "description": "Viewlify for Claude Code: TikTok data over MCP and skills built on it.",
+  "owner": {
+    "name": "Viewlify",
+    "url": "https://viewlify.app"
+  },
+  "plugins": [
+    {
+      "name": "viewlify",
+      "source": "./",
+      "description": "Viewlify for Claude: an MCP server with public TikTok data (videos that beat their creator's usual views, trends, hashtags and sounds by niche) and three skills that turn it into research, video ideas and a weekly trend watch.",
+      "author": {
+        "name": "Viewlify",
+        "url": "https://viewlify.app"
+      },
+      "homepage": "https://viewlify.app/tiktok-data-api?utm_source=github&utm_medium=readme&utm_campaign=viewlify-mcp",
+      "repository": "https://github.com/benjaminb10/viewlify-mcp",
+      "license": "MIT",
+      "keywords": [
+        "tiktok",
+        "mcp",
+        "tiktok-analytics",
+        "trends",
+        "content-ideas",
+        "creators",
+        "social-media",
+        "marketing"
+      ],
+      "category": "productivity",
+      "version": "1.0.0"
+    }
+  ]
+}

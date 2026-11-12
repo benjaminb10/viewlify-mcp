@@ -1,0 +1,32 @@
+{
+  "name": "viewlify",
+  "version": "0.1.0",
+  "description": "Viewlify from your terminal: search TikTok videos that outperform their creator's usual views, check your API credit, top up, and set up the MCP server for Claude Code.",
+  "type": "module",
+  "bin": {
+    "viewlify": "bin/viewlify.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/args.node-test.mjs"
+  },
+  "keywords": [
+    "tiktok",
+    "tiktok-api",
+    "mcp",
+    "claude",
+    "viral",
+    "analytics",
+    "cli"
+  ],
+  "homepage": "https://viewlify.app/tiktok-data-api",
+  "license": "MIT",
+  "author": "Viewlify <contact@viewlify.app>"
+}

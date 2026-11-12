@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "viewlify": {
+      "type": "http",
+      "url": "https://viewlify.app/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${VIEWLIFY_API_KEY:-}"
+      }
+    }
+  }
+}
