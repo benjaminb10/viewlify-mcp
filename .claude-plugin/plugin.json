@@ -1,7 +1,7 @@
 {
   "name": "viewlify",
   "displayName": "Viewlify TikTok data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Viewlify for Claude: an MCP server with public TikTok data (videos that beat their creator's usual views, trends, hashtags and sounds by niche) and three skills that turn it into research, video ideas and a weekly trend watch.",
   "author": {
     "name": "Viewlify",
@@ -21,5 +21,13 @@
     "marketing"
   ],
   "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://viewlify.app/privacy"
+  "privacyPolicyUrl": "https://viewlify.app/privacy",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Viewlify API key (optional)",
+      "description": "Optional. A vf_live_ key from viewlify.app Settings > API & MCP unlocks full results. Leave empty for the free 5-result preview.",
+      "sensitive": true
+    }
+  }
 }

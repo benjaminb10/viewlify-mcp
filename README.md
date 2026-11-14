@@ -22,11 +22,7 @@ The server itself is hosted by Viewlify; there is nothing to run locally.
 /plugin install viewlify@viewlify
 ```
 
-Then set your key in the environment before starting Claude Code (optional, see below):
-
-```
-export VIEWLIFY_API_KEY=vf_live_YOUR_KEY
-```
+At install, Claude Code asks for your Viewlify API key. It is optional (see below): leave it empty for the free preview.
 
 **Claude Code, the MCP server only:**
 
@@ -92,10 +88,9 @@ not affiliated with TikTok.
 
 ```
 .claude-plugin/   plugin and marketplace manifests for Claude Code
-.mcp.json         the MCP server the plugin connects (reads VIEWLIFY_API_KEY)
+.mcp.json         the MCP server the plugin connects (API key asked at install, optional)
 server.json       entry for the official MCP registry
 skills/           the three skills
-cli/              source of the viewlify npm package (zero dependencies, Node 18+)
 ```
 
 ## License
