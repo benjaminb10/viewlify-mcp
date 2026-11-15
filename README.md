@@ -55,6 +55,7 @@ and Agency plans. Prices: [viewlify.app/tiktok-data-api](https://viewlify.app/ti
 | `get_trending` | optional | Videos, hashtags and sounds breaking out right now, by niche |
 | `get_outliers` | optional | Videos beating their creator's usual views by the widest margin, by niche or search |
 | `get_trending_hashtags` | optional | Hashtags recurring under what is breaking out, by niche |
+| `get_creator` | optional | One creator: followers, usual views, engagement, best breakout, best posting day, top hashtags and sounds, and their videos with the multiple |
 | `search_trending_videos` | required | Search the whole base by keyword, @creator or #hashtag; sort by trending, outlier, views, recent, engagement or shares |
 | `get_balance`, `top_up` | required | API credit, and a payment link to add more |
 | `list_my_accounts`, `get_account_growth`, `get_account_videos`, `get_my_niche_watch`, `get_my_video_checks` | Pro or Agency | Your own tracked accounts, their growth and videos, your niche watch and AI video checks |
