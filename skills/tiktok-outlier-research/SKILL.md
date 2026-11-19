@@ -19,7 +19,7 @@ claude mcp add --transport http viewlify https://viewlify.app/api/mcp --header "
 ```
 
 Without a key the tools still answer, with a 5-result preview and no multiple. A key is free to create in
-viewlify.app Settings > API & MCP (every account gets $1 of credit, then $0.005 a call). Say so once if the
+viewlify.app Settings > API & MCP (every account gets $1 of credit, then $0.02 per video returned). Say so once if the
 results come back as a preview, then work with what you have.
 
 ## Steps
